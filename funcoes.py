@@ -1,22 +1,51 @@
 import numpy as np
 
 def malthus(t,x,k):
-    """Equação diferencial de Malthus
+    """Equação diferencial de Malthus: dx/dt = kx
+    Args:
+        t: float variável t
+        x: float variável x
+        k: float constante k
+    Returns:
+        derivada dx/dt no ponto x
     """
     return k*x
 
-def verhulst(t,x,a):
-    """Equação diferencial de Verhulst
+def verhulst(t,x,k):
+    """Equação diferencial de Verhulst: dx/dt = k x (1-x)
+    Args:
+        t: float variável t
+        x: float variável x
+        k: float constante k
+    Returns:
+        derivada dx/dt no ponto x
     """
-    return a * x * (1-x)
+    return k * x * (1-x)
 
-def gompertz(t,x, a):
-    """Equação diferencial de Gompertz
+def gompertz(t,x, k):
+    """Equação diferencial de Gompertz: dx/dt = k x ln(1/x)
+    Args:
+        t: float variável t
+        x: float variável x
+        k: float constante k
+    Returns:
+        derivada dx/dt no ponto x
     """
-    return a * x * np.log(1/x)
+    return k * x * np.log(1/x)
 
 
 def runge_kutta(dx, t0, x0, tf, h, k):
+    """ Resolve numericamente uma equação diferencial usando o método de runge-kutta.
+    Args:
+        dx: função da derivada (equação diferencial) ex: malthus, verhulst, gompertz.
+        t0: instante inicial
+        x0: valor inicial de x
+        tf: valor final de t
+        h: esaçamento dos pontos em t
+        k: constante k
+    Returns: 
+        array dos pontos t, array dos pontos calculados de x
+    """
     t_values = [t0]  # List to store time values
     x_values = [x0]  # List to store x values
 
