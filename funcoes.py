@@ -22,7 +22,7 @@ def verhulst(t,x,k):
     """
     return k * x * (1-x)
 
-def gompertz(t,x, k):
+def gompertz(t,x,k):
     """Equação diferencial de Gompertz: dx/dt = k x ln(1/x)
     Args:
         t: float variável t
