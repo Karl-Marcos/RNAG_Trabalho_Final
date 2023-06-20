@@ -13,7 +13,7 @@
 
 <p align="justify"> Desta forma, o presente trabalho aplica regressão simbólica para aproximar soluções para equações diferenciais ordenadas, que descrevem dinâmicas populacionais, segundo os modelos de Malthuls, Verhulst e Gompertz. </p>
 
-<h3> Dinâmica Populacional e Equação Diferenciais </h3>
+<h3> Dinâmica Populacional e Equações Diferenciais </h3>
 
 <p align="justify"> </p>
 
