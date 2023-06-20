@@ -9,7 +9,9 @@
 
 <p align="justify"> Um dos principais obstáculos da ciência analítica é encontrar uma forma de descrever a relação entre de um determinado sistema. Por isso, diversos modelos e técnicas sugiram para tentar gerar um vínculo quantitativo para estas variáveis. A forma mais usual de realizar isto é através de combinações lineares, que se baseam em informações já coletadas para gerar um novo dado relacionado às propriedades do sistema. Esse tipo de regressão oferece vantagens como facilidade na interpretação do modelo e na relação com conceitos ligados as dados, bem como possue um baixo custo computacional para o processamento de dados, comparado a redes neurais, por exemplo. </p>
 
-<p align="justify"> A regressão simbólica, por sua vez, procura relacionar essas variáveis de forma simbólica, utilizando de diversos recurso matemáticos, que vão desde operações básicas, como soma e multiplicação, até funções mais complexas, como logaritmos e exponenciais, afim de encontrar uma representação matemática capaz de descrever os dados fornecidos. </p>
+<p align="justify"> A regressão simbólica, por sua vez, procura relacionar essas variáveis de forma simbólica, utilizando de diversos recurso matemáticos, que vão desde operações básicas, como soma e multiplicação, até funções mais complexas, como logaritmos e exponenciais, afim de encontrar uma representação matemática capaz de descrever os dados fornecidos. Essa ferramenta tecnológica permite identificar padrões de comportamento em conjuntos de dados e pode até auxiliar a descrição matemática de propriedades físicas, apesar de ser um propósito muito dificil de ser alcaçado, isto porque um dos principais desafios para a regressão simbólica é encontrar um expressão curta e interpretável para tais variáveis.</p>
+
+<p align="justify"> Desta forma, 
 
 <details><summary><h3 align="justify"> Quem somos? </h3></summary>
   
