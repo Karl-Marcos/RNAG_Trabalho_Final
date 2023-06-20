@@ -1,5 +1,9 @@
 import numpy as np
 
+
+##############################################################
+##                   MODELOS POPULACIONAIS                  ## 
+##############################################################
 def malthus(t,x,k):
     """Equação diferencial de Malthus: dx/dt = kx
     Args:
@@ -63,3 +67,30 @@ def runge_kutta(dx, t0, x0, tf, h, k):
         x_values.append(x0)
 
     return np.array(t_values), np.array(x_values)
+
+##############################################################
+##             FUNÇÔES RELACIONADAS A BUSCA                 ## 
+##############################################################
+
+def Div(left, right):
+    if type(right) == float:
+        if right == 0:
+            #print('div error')
+            return 1
+        else:
+            return left / right
+    else:
+        # Replace zero terms in the divider array with 1
+        right_without_zeros = np.where(right == 0, 1, right)
+
+        # Perform element-wise division
+        result = left / right_without_zeros
+        return result
+
+def Exp(x):
+    try:
+        result = np.exp(x)
+    except OverflowError:
+        print('exp error')
+        result = np.ones_like(x)
+    return result
