@@ -18,6 +18,22 @@
   
 </details>
 
+<details><summary><h3><b>Como se guiar nesse GitHub?</h3></b></summary>
+<p align="justify">
+Os experimentos de regressão simbólica estão separados em três notebooks jupyter (.ipynb), cada um aplicado a uma das equações diferenciais dos modelos populacionais: </p>
+ 
+- <a href="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/R_S%20-%20Malthus.ipynb"> Modelo de Malthus </a>
+
+- <a href="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/R_S%20-%20Verhulst.ipynb"> Modelo de Verhulst </a>
+
+- <a href="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/R_S%20-%20Gompertz.ipynb"> Modelo de Gompertz </a>
+
+<p align="justify">
+Além disso, algumas funções úteis, como as funções correspondentes às equações diferenciais em si, assim como a função que reslolve numericamente usando o método de Runge-Kutta, estão definidas no arquivo <a href="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/funcoes.py"> funcoes.py 
+</p>
+
+</details>
+
 <h3> Regressão Simbólica </h3>
 
 <p align="justify"> Um dos principais obstáculos enfrentados na área de ciência analítica nos dias atuais envolvem um entendimento de relações numéricas entre conjuntos de dados pretencentes a um determinado sistema. Por isso, diversos modelos e técnicas foram desenvolvidas com o intuito de tentar gerar um vínculo quantitativo para estas variáveis, oferecendo uma interpretação coerente que é feita de acordo com o sistema que está sendo trabalhado. Nesse sentido, a forma mais usual de se realizar a solução de um problema como é através de combinações lineares, que são expressões baseadas em informações já coletadas para gerar um novo dado relacionado às propriedades do sistema estudado. Esse tipo de regressão oferece vantagens como facilidade na interpretação do modelo e na relação com conceitos ligados aos dados, bem como possue um baixo custo computacional para o processamento de dados, comparado a redes neurais, por exemplo [1]. </p>
