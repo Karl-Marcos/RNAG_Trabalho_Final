@@ -11,10 +11,10 @@
 
 <p align="justify"> Com base nisto, trazemos projetos multidisciplinares, incrementados principalmente em Python, para a plataforma do GitHub. Para conhecer um pouco mais de nosso trabalho, visite nossos perfis:</p>
 
-- Ana Clara Brandão - https://github.com/aaaaclarinha
-- Heitor Ribeiro - https://github.com/Vendedor-de-Automoveis
-- Marcos de Cerqueira - https://github.com/Karl-Marcos
-- Sophia Michel - https://github.com/Sophlechim
+- <a href="https://github.com/aaaaclarinha"> Ana Clara Brandão </a>
+- <a href="https://github.com/Vendedor-de-Automoveis"> Heitor Ribeiro</a>
+- <a href="https://github.com/Karl-Marcos"> Marcos de Cerqueira</a>
+- <a href="https://github.com/Sophlechim"> Sophia Michel </a>
 
 <p align="justify"> Esse repositório é parte da disciplina de Redes Neurais e Algoritmos Genéticos, ministrada pelo <a href="https://github.com/drcassar"> Prof. Daniel R. Cassar </a> </p>
   
