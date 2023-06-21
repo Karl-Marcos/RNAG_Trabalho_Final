@@ -46,6 +46,8 @@ Além disso, podem ser acessadas também algumas funções úteis para o deselvi
 
 <h3> Dinâmica Populacional e Equações Diferenciais </h3>
 
+<h3> Resultados </h3>
+
 <p align="justify"> </p>
 
     
