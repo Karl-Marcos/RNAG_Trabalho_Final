@@ -7,7 +7,7 @@
 
 <details><summary><h3 align="justify"> Quem somos? </h3></summary>
   
-<p align="justify"> Somos alunos da Ilum Escola de Ciência! Nosso curso é voltado para uma formação interdisciplinar em Ciência e Tecnologia. Por aqui exploramos diversas áreas do conhecimento e somos convidados a pensar ciência de forma independente e inovadora. </p>
+<p align="justify"> Somos alunos da <a href="https://ilum.cnpem.br/"> Ilum Escola de Ciência</a>! Nosso curso é voltado para uma formação interdisciplinar em Ciência e Tecnologia. Por aqui exploramos diversas áreas do conhecimento e somos convidados a pensar ciência de forma independente e inovadora. </p>
 
 <p align="justify"> Com base nisto, trazemos projetos multidisciplinares, incrementados principalmente em Python, para a plataforma do GitHub. Para conhecer um pouco mais de nosso trabalho, visite nossos perfis:</p>
 
@@ -15,6 +15,8 @@
 - Heitor Ribeiro - https://github.com/Vendedor-de-Automoveis
 - Marcos de Cerqueira - https://github.com/Karl-Marcos
 - Sophia Michel - https://github.com/Sophlechim
+
+<p align="justify"> Esse repositório é parte da disciplina de Redes Neurais e Algoritmos Genéticos, ministrada pelo <a href="https://github.com/drcassar"> Prof. Daniel R. Cassar </a> </p>
   
 </details>
 
