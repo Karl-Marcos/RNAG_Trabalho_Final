@@ -31,7 +31,7 @@ Os experimentos de regressão simbólica por algoritmos genéticos estão separa
 - <a href="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/R_S%20-%20Gompertz.ipynb"> Modelo de Gompertz (R_S_Gompertz) </a>
 
 <p align="justify">
-Além disso, podem ser acessadas também algumas funções úteis para o deselvimento do nosso trabalho, como as funções correspondentes às equações diferenciais e a função que resolve o problema da análise numericamente, usando o método de Runge-Kutta. Estas se encontram definidas no arquivo '.py' <a href="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/funcoes.py"> funcoes.py </a> 
+Além disso, podem ser acessadas também algumas funções úteis para o deselvimento do nosso trabalho, como as funções correspondentes às equações diferenciais e a função que resolve o problema da análise numericamente, usando o método de Runge-Kutta. Estas se encontram definidas no arquivo <a href="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/funcoes.py"> funcoes.py </a> 
 </p>
 
 </details>
