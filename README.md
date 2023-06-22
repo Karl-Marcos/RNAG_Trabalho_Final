@@ -44,13 +44,31 @@ Além disso, podem ser acessadas também algumas funções úteis para o deselvi
 
 <h3> Dinâmica Populacional e Equações Diferenciais </h3>
 
-
-
 <p align="justify"> Desta forma, o presente trabalho foi desenvolvido com a intenção de usar um algoritmo genético para aplicar um método de regressão simbólica para encontrar soluções para equações diferenciais ordenadas (EDOs), as quais descrevem dinâmicas de modelos populacionais, segundo os modelos de Malthuls, Verhulst e Gompertz. Usando o módulo de Python `DEAP`, buscamos uma representação matemática capaz de descrever os dados fornecidos através de uma aproximação. </p>
 
-<h3> Resultados </h3>
+<p align="justify"> A escolha dos modelos aplicados foi inspirada pela disciplina de Equações Diferencias e Análise Numérica, ministradas pelo professor Doutor Vinícius F. Wasques, na Ilum Escola de Ciência, Campinas - Brasil, nos anos de 2022 e 2023. Os modelos foram estudado dos pontos de vista análitico e numérico, e agora serão discutidos com esta nova abordagem. </p>
 
-<p align="justify"> </p>
+<h4> O Modelo de Malthus </h4>
+
+<p align="justify"> Um dos modelos mais clássicos, foi proposto pelo economista inglês Thomas Malthus em 1798, afim de descrever o crescimento de uma população. Ele avaliou que o número de indivíduos de uma população em um determinado instante $t$ é uma proporção da população total.
+</p>
+
+$$ \frac{\partial{x}}{\partial{t}} = \lambda x $$
+
+<h4> O Modelo de Verhulst </h4>
+
+<p align="justify"> Verhulst, por sua vez, propos que, para um modelo mais geral, considera-se uma taxa atrelada a limitações de recursos, desta forma, uma população só cresceria até alcançar um limite máximo sustentável, após isso, ela se estabilizaria.
+</p>
+
+$$ \frac{\partial{x}}{\partial{t}} = \lambda x (1-x) $$
+
+<h4> O Modelo de Gompertz </h4>
+
+<p align="justify"> O mais recente modelo (1938) foi originalmente considerado para análisar o crescimento de células tumorais. Elaborado por Benjamin Gompertz, este modelo considera também uma taxa atrelada a capacidade máxima que uma população pode alcançar.
+
+$$ \frac{\partial{x}}{\partial{t}} = \lambda x \ ln (\frac{1}{x})$$
+
+<p align="justify"> A todos os modelos foi aplicada a regressão simbólica afim de encotrar uma representação válida como solução. Foram usadas como parâmetro soluções numéricas respectivas a cada modelo, soluções essas obtidas pelo método de Runge-Kutta de análise numérica. </p>
 
     
   <h3> Referências </h3>
@@ -59,4 +77,17 @@ Além disso, podem ser acessadas também algumas funções úteis para o deselvi
 ‌</p>
 <p align="justify"> [2] <a href='https://towardsdatascience.com/symbolic-regression-the-forgotten-machine-learning-method-ac50365a7d95'> RUGGIERO, R. Symbolic Regression: The Forgotten Machine Learning Method. Disponível em: https://towardsdatascience.com/symbolic-regression-the-forgotten-machine-learning-method-ac50365a7d95. Acesso em: 20 jun. 2023. </a>
 </p>
+
+<p align="justify"> [3] <a href='https://moodle-ilum.cnpem.br/pluginfile.php/256647/mod_resource/content/15/Equa__es_Diferenciais___Ilum_2022%20%2817%29.pdf'> WASQUES, Vinícius Francisco. Notas Matemáticas: Equações Diferenciais. Ilum Escola de Ciência, 2022. </a>
+</p>
+
+<p align="justify"> [4] <a href='https://towardsdatascience.com/symbolic-regression-the-forgotten-machine-learning-method-ac50365a7d95](https://www.fc.unesp.br/Home/Departamentos/Matematica/revistacqd2228/v02n02a09-os-modelos-de-crescimento-populacional.pdf)'> TAVONI, R.; ZOTIN G. DE OLIVEIRA, R. Os modelos de crescimento populacional de Malthus e Verhulst - uma motivação para o ensino de logaritmos e exponenciais. C.Q.D.- Revista Eletrônica Paulista de Matemática, v. 2, p. 86–99, 2013.</a>
+</p>
+
+<p align="justify"> [5] <a href='https://www.if.ufrj.br/~carlos/infoenci/notasdeaula/roteiros/aula06.pdf'> CEDERJ -CENTRO DE EDUCAÇÃO SUPERIOR A DISTÂNCIA DO ESTADO DO RIO DE JANEIRO. [s.l: s.n.]. Disponível em: <https://www.if.ufrj.br/~carlos/infoenci/notasdeaula/roteiros/aula06.pdf>. </a>
+</p>
+
+
+
+‌
     
