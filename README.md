@@ -42,9 +42,11 @@ Além disso, podem ser acessadas também algumas funções úteis para o deselvi
 
 <p align="justify"> A regressão simbólica, por sua vez, procura relacionar essas variáveis de forma simbólica, utilizando de diversos recurso matemáticos para manipular expressões desconhecidas, que vão desde operações básicas, como adição e multiplicação, até funções mais complexas, como logaritmos e exponenciais. O uso desse método é amplamente aplicado em Aprendizado de Máquina para predizer variáveis de saída a partir das relações das variáveis de entrada fornecidas através de um banco de dados, de forma a aproximar a expressão da melhor forma possível. Essa ferramenta tecnológica permite identificar padrões de comportamento em conjuntos de dados, podendo até auxiliar na descrição matemática de propriedades físicas, o qual funciona de um modo muito complexo de ser alcançado, pois um dos principais desafios para a realização da regressão simbólica está em encontrar um expressão curta e interpretável para tais variáveis [2].</p>
 
-<p align="justify"> Desta forma, o presente trabalho foi desenvolvido com a intenção de usar um algoritmo genético para aplicar um método de regressão simbólica para encontrar soluções para equações diferenciais ordenadas (EDOs), as quais descrevem dinâmicas de modelos populacionais, segundo os modelos de Malthuls, Verhulst e Gompertz. Usando o módulo de Python `DEAP`, buscamos uma representação matemática capaz de descrever os dados fornecidos através de uma aproximação. </p>
-
 <h3> Dinâmica Populacional e Equações Diferenciais </h3>
+
+
+
+<p align="justify"> Desta forma, o presente trabalho foi desenvolvido com a intenção de usar um algoritmo genético para aplicar um método de regressão simbólica para encontrar soluções para equações diferenciais ordenadas (EDOs), as quais descrevem dinâmicas de modelos populacionais, segundo os modelos de Malthuls, Verhulst e Gompertz. Usando o módulo de Python `DEAP`, buscamos uma representação matemática capaz de descrever os dados fornecidos através de uma aproximação. </p>
 
 <h3> Resultados </h3>
 
