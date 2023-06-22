@@ -67,6 +67,9 @@ $$ \frac{\partial{x}}{\partial{t}} = \lambda x (1-x) $$
 <p align="justify"> O mais recente modelo (1938) foi originalmente considerado para análisar o crescimento de células tumorais. Elaborado por Benjamin Gompertz, este modelo considera também uma taxa atrelada a capacidade máxima que uma população pode alcançar.
 
 $$ \frac{\partial{x}}{\partial{t}} = \lambda x \ ln (\frac{1}{x})$$
+
+<p align="justify"> A todos os modelos foi aplicada a regressão simbólica afim de encotrar uma representação válida como solução. Foram usadas como parâmetro soluções numéricas respectivas a cada modelo, soluções essas obtidas pelo método de Runge-Kutta de análise numérica. </p>
+
     
   <h3> Referências </h3>
     
