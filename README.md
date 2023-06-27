@@ -77,53 +77,78 @@ Na aba Issues desse repositório é possível ver os gráficos de funções apro
 Aqui, temos algumas soluções que o grupo julgou como sendo boas aproximações, considerando as limitações do código:
 
 
--<p align="justify"> As melhores soluções para o modelo de Malthus: </p>
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Malthus_ana.jpeg?raw=true" width=550 height=250 alt="Imagem 1">
-    </td>
-    <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Malthus_2.jpeg?raw=true" width=550 height=250 alt="Imagem 2">
-    </td>
-    <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Malthus_3.jpeg?raw=true" width=550 height=250 alt="Imagem 3">
-    </td>
-  </tr>
-</table>
-
--<p align="justify"> As melhores soluções para o modelo de Verhulst: </p>
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Verhulst_ana.jpeg?raw=true" width=550 height=250 alt="Imagem 1">
-    </td>
-    <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Verhulst_2.jpeg?raw=true" width=550 height=250 alt="Imagem 2">
-    </td>
-    <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Verhulst_3.jpeg?raw=true" width=550 height=250 alt="Imagem 3">
-    </td>
-  </tr>
-</table>
-
-
--<p align="justify"> As melhores soluções para o modelo de Gompertz: </p>
+<p align="justify"> As melhores soluções para o modelo de Malthus </p>
 
 <table>
   <tr>
     <td>
       <figure>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Gompertz_ana.jpeg?raw=true" width=550 height=250 alt="$x(t) = x_0 e^{-e^{-t}}$">           <figcaption>An elephant at sunset</figcaption>
+        <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Malthus_ana.jpeg?raw=true" width=540 height=240 alt="Imagem 1">
+      </figure>
+      <p>$$x(t) = 3e^{t}$$</p>
+    </td>
+    <td>
+      <figure>
+        <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Malthus_2.jpeg?raw=true" width=540 height=240 alt="Imagem 2">
+      </figure>
+      <p>$$x(t) = \frac{e^{t}}{ee^{e-1}} + ee^t $$</p>
+    </td>
+    <td>
+      <figure>
+        <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Malthus_3.jpeg?raw=true" width=540 height=240 alt="Imagem 3">
+      </figure>
+      <p>$$x(t) = \frac{t}{e} + ee^t = e^{-1}$$ </p>
+    </td>
+  </tr>
+</table>
+
+<p align="justify"> As melhores soluções para o modelo de Verhulst </p>
+
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Verhulst_ana.jpeg?raw=true" width=540 height=240 alt="Imagem 1">
+        <figcaption>$$x(t) = \frac{1}{1+e^{-t}}$$</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Verhulst_2.jpeg?raw=true" width=540 height=240 alt="Imagem 2">
+        <figcaption>$$x(t) = 3e^{-e^{-t}e^{-\frac{e^t}{e}}}$$</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Verhulst_3.jpeg?raw=true" width=540 height=240 alt="Imagem 3">
+        <figcaption>$$x(t) = e^{e^{-te^{te^{-t}}}}$$</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+
+
+<p align="justify"> As melhores soluções para o modelo de Gompertz </p>
+
+<table>
+  <tr>
+    <td>
+      <figure>
+          <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Gompertz_ana.jpeg?raw=true" width=540 height=240 alt=" Solução 1 (análitica">
+        <figcaption align="center">$$x(t) = x_0 \  e^{-e^{-t}}$$</figcaption>
       </figure>
       </td>
     <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Gompertz_2.jpeg?raw=true" width=550 height=250 alt="$x(t) = \frac{e^t}{e e^{e-1}} + e e^t$">
+      <figure>
+        <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Gompertz_2.jpeg?raw=true" width=540 height=240 alt="Solução 2">
+        <figcaption>$$x(t) = -t + \frac{e^t}{e}+ e^{e^{-t}}$$</figcaption>
+      </figure>
     </td>
     <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Gompertz_3.jpeg?raw=true" width=550 height=250 alt="x(t) = \frac{t}{e} + e e^t + e^{-1}">
+      <figure>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Gompertz_3.jpeg?raw=true" width=540 height=240 alt="Solução 3">
+      <figcaption>$$x(t) = e^{\frac{1}{t + \frac{e^t}{t+1}}}$$</figcaption> 
+      </figure>
     </td>
   </tr>
 </table>
