@@ -77,7 +77,7 @@ Na aba Issues desse repositório é possível ver os gráficos de funções apro
 Aqui, temos algumas soluções que o grupo julgou como sendo boas aproximações, considerando as limitações do código:
 
 
-<p align="justify"> As melhores soluções para o modelo de Malthus </p>
+-<p align="justify"> As melhores soluções para o modelo de Malthus: </p>
 
 <table>
   <tr>
@@ -93,7 +93,7 @@ Aqui, temos algumas soluções que o grupo julgou como sendo boas aproximações
   </tr>
 </table>
 
-<p align="justify"> As melhores soluções para o modelo de Verhulst </p>
+-<p align="justify"> As melhores soluções para o modelo de Verhulst: </p>
 
 <table>
   <tr>
@@ -110,7 +110,7 @@ Aqui, temos algumas soluções que o grupo julgou como sendo boas aproximações
 </table>
 
 
-<p align="justify"> As melhores soluções para o modelo de Gompertz </p>
+-<p align="justify"> As melhores soluções para o modelo de Gompertz: </p>
 
 <table>
   <tr>
