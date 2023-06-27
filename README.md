@@ -70,6 +70,8 @@ $$ \frac{\partial{x}}{\partial{t}} = \lambda x \ ln (\frac{1}{x})$$
 
 <p align="justify"> A todos os modelos foi aplicada a regressão simbólica afim de encotrar uma representação válida como solução. Foram usadas como parâmetro soluções numéricas respectivas a cada modelo, soluções essas obtidas pelo método de Runge-Kutta de análise numérica. </p>
 
+<h3> Resultados e Discussões </h3>
+
     
   <h3> Referências </h3>
     
