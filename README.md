@@ -72,7 +72,8 @@ $$ \frac{\partial{x}}{\partial{t}} = \lambda x \ ln (\frac{1}{x})$$
 
 <h3> Resultados e Discussões </h3>
 
-    
+Na aba Issues desse repositório é possível ver os gráficos de funções aproximadas da solução analítica de cada um dos três modelos populacionais apresentados neste trabalho.
+
   <h3> Referências </h3>
     
 <p align="justify"> [1] <a href='https://towardsdatascience.com/a-better-symbolic-regression-method-by-explicitly-considering-units-35b3630165b'> LUCIANOSPHERE. A better symbolic regression method, by explicitly considering units. Disponível em: https://towardsdatascience.com/a-better-symbolic-regression-method-by-explicitly-considering-units-35b3630165b. Acesso em: 18 jun. 2023. </a>
