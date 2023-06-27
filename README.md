@@ -76,46 +76,54 @@ Na aba Issues desse repositório é possível ver os gráficos de funções apro
 
 Aqui, temos algumas soluções que o grupo julgou como sendo boas aproximações, considerando as limitações do código:
 
-<table style="background-color: white;">
+
+<p align="justify"> As melhores soluções para o modelo de Malthus </p>
+
+<table>
   <tr>
     <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Malthus_1.jpeg?raw=true" width=550 height=250 alt="Imagem 1">
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Malthus_ana.jpeg?raw=true" width=550 height=250 alt="Imagem 1">
     </td>
     <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Malthus_2.jpeg?raw=true" width=550 height=250 alt="Imagem 2">
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Malthus_2.jpeg?raw=true" width=550 height=250 alt="Imagem 2">
     </td>
     <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Malthus_3.jpeg?raw=true" width=550 height=250 alt="Imagem 3">
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Malthus_3.jpeg?raw=true" width=550 height=250 alt="Imagem 3">
+    </td>
+  </tr>
+</table>
+
+<p align="justify"> As melhores soluções para o modelo de Verhulst </p>
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Verhulst_ana.jpeg?raw=true" width=550 height=250 alt="Imagem 1">
+    </td>
+    <td>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Verhulst_2.jpeg?raw=true" width=550 height=250 alt="Imagem 2">
+    </td>
+    <td>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Verhulst_3.jpeg?raw=true" width=550 height=250 alt="Imagem 3">
     </td>
   </tr>
 </table>
 
 
-<table style="background-color: white;">
+<p align="justify"> As melhores soluções para o modelo de Gompertz </p>
+
+<table>
   <tr>
     <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Verhulst_1.jpeg?raw=true" width=550 height=250 alt="Imagem 1">
+      <figure>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Gompertz_ana.jpeg?raw=true" width=550 height=250 alt="$x(t) = x_0 e^{-e^{-t}}$">           <figcaption>An elephant at sunset</figcaption>
+      </figure>
+      </td>
+    <td>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Gompertz_2.jpeg?raw=true" width=550 height=250 alt="$x(t) = \frac{e^t}{e e^{e-1}} + e e^t$">
     </td>
     <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Verhulst_2.jpeg?raw=true" width=550 height=250 alt="Imagem 2">
-    </td>
-    <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Verhulst_3.jpeg?raw=true" width=550 height=250 alt="Imagem 3">
-    </td>
-  </tr>
-</table>
-
-
-<table style="background-color: white;">
-  <tr>
-    <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Gompertz_1.jpeg?raw=true" width=550 height=250 alt="Imagem 1">
-    </td>
-    <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Gompertz_2.jpeg?raw=true" width=550 height=250 alt="Imagem 2">
-    </td>
-    <td>
-      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Gompertz_3.jpeg?raw=true" width=550 height=250 alt="Imagem 3">
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Gompertz_3.jpeg?raw=true" width=550 height=250 alt="x(t) = \frac{t}{e} + e e^t + e^{-1}">
     </td>
   </tr>
 </table>
