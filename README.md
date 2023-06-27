@@ -74,6 +74,53 @@ $$ \frac{\partial{x}}{\partial{t}} = \lambda x \ ln (\frac{1}{x})$$
 
 Na aba Issues desse repositório é possível ver os gráficos de funções aproximadas da solução analítica de cada um dos três modelos populacionais apresentados neste trabalho.
 
+Aqui, temos algumas soluções que o grupo julgou como sendo boas aproximações, considerando as limitações do código:
+
+<table style="background-color: white;">
+  <tr>
+    <td>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Malthus_1.jpeg?raw=true" width=550 height=250 alt="Imagem 1">
+    </td>
+    <td>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Malthus_2.jpeg?raw=true" width=550 height=250 alt="Imagem 2">
+    </td>
+    <td>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Malthus_3.jpeg?raw=true" width=550 height=250 alt="Imagem 3">
+    </td>
+  </tr>
+</table>
+
+
+<table style="background-color: white;">
+  <tr>
+    <td>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Verhulst_1.jpeg?raw=true" width=550 height=250 alt="Imagem 1">
+    </td>
+    <td>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Verhulst_2.jpeg?raw=true" width=550 height=250 alt="Imagem 2">
+    </td>
+    <td>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Verhulst_3.jpeg?raw=true" width=550 height=250 alt="Imagem 3">
+    </td>
+  </tr>
+</table>
+
+
+<table style="background-color: white;">
+  <tr>
+    <td>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Gompertz_1.jpeg?raw=true" width=550 height=250 alt="Imagem 1">
+    </td>
+    <td>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Gompertz_2.jpeg?raw=true" width=550 height=250 alt="Imagem 2">
+    </td>
+    <td>
+      <img src="https://github.com/Karl-Marcos/RNAG_Trabalho_Final/blob/main/resultados/Resultado_Gompertz_3.jpeg?raw=true" width=550 height=250 alt="Imagem 3">
+    </td>
+  </tr>
+</table>
+
+
   <h3> Referências </h3>
     
 <p align="justify"> [1] <a href='https://towardsdatascience.com/a-better-symbolic-regression-method-by-explicitly-considering-units-35b3630165b'> LUCIANOSPHERE. A better symbolic regression method, by explicitly considering units. Disponível em: https://towardsdatascience.com/a-better-symbolic-regression-method-by-explicitly-considering-units-35b3630165b. Acesso em: 18 jun. 2023. </a>
