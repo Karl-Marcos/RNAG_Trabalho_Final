@@ -12,7 +12,7 @@
 <p align="justify"> Com base nisto, trazemos projetos multidisciplinares, incrementados principalmente em Python, para a plataforma do GitHub. Para conhecer um pouco mais de nosso trabalho, visite nossos perfis:</p>
 
 - <a href="https://github.com/aaaaclarinha"> Ana Clara Brandão </a>
-- <a href="https://github.com/Vendedor-de-Automoveis"> Heitor Ribeiro</a>
+- <a href="https://github.com/Vendedor-de-Automoveis"> Heitor R. Bernardes </a>
 - <a href="https://github.com/Karl-Marcos"> Marcos de Cerqueira</a>
 - <a href="https://github.com/Sophlechim"> Sophia Michel </a>
 
