@@ -44,7 +44,7 @@ Além disso, podem ser acessadas também algumas funções úteis para o deselvi
 
 <h3> Dinâmica Populacional e Equações Diferenciais </h3>
 
-<p align="justify"> Desta forma, o presente trabalho foi desenvolvido com a intenção de usar um algoritmo genético para aplicar um método de regressão simbólica para encontrar soluções para equações diferenciais ordenadas (EDOs), as quais descrevem dinâmicas de modelos populacionais, segundo os modelos de Malthuls, Verhulst e Gompertz. Usando o módulo de Python `DEAP`, buscamos uma representação matemática capaz de descrever os dados fornecidos através de uma aproximação. </p>
+<p align='justify'> Em dinâmica populacional, existe uma forma interessante e válida de se representar modelos populacionais reais expressos de forma matemática, usando equações diferencias. Estes modelos, então, são usados para descrever um sistema populacional real, levando em conta as condições em que ele se encontra, de forma a permitir um estudo experimental simulador que prevê o que pode acontecer com as dinâmicas de fenômenos. </p>
 
 <p align="justify"> A escolha dos modelos aplicados foi inspirada pela disciplina de Equações Diferencias e Análise Numérica, ministradas pelo professor Doutor Vinícius F. Wasques, na Ilum Escola de Ciência, Campinas - Brasil, nos anos de 2022 e 2023. Os modelos foram estudado dos pontos de vista análitico e numérico, e agora serão discutidos com esta nova abordagem. </p>
 
@@ -68,7 +68,9 @@ $$ \frac{\partial{x}}{\partial{t}} = \lambda x (1-x) $$
 
 $$ \frac{\partial{x}}{\partial{t}} = \lambda x \ ln (\frac{1}{x})$$
 
-<p align="justify"> A todos os modelos foi aplicada a regressão simbólica afim de encotrar uma representação válida como solução. Foram usadas como parâmetro soluções numéricas respectivas a cada modelo, soluções essas obtidas pelo método de Runge-Kutta de análise numérica. </p>
+<p align="justify"> A todos os modelos foi aplicada uma regressão simbólica, que tinha o intuito de encontrar representações válidas como resoluções numéricas de possíveis soluções de cada um desses modelos. Foram usados como parâmetro, portanto, soluções numéricas respectivas a cada modelo que foram obtidas pelo método análise numérica de Runge-Kutta, o qual consiste na discretização temporal da equação diferencial. Esse é um método muito eficaz para descrever aproximações de equações não lineares, como é o caso dos dos três modelos demonstrados acima. </p>
+
+<p align="justify"> Desta forma, o presente trabalho foi desenvolvido com a intenção de usar um algoritmo genético para aplicar um método de regressão simbólica para encontrar soluções para equações diferenciais ordenadas (EDOs), as quais descrevem dinâmicas de modelos populacionais, segundo os modelos de Malthuls, Verhulst e Gompertz. Usando o módulo de Python `DEAP`, buscamos uma representação matemática capaz de descrever os dados fornecidos através de uma aproximação. </p>
 
 <h3> Resultados e Discussões </h3>
 
