@@ -74,7 +74,7 @@ $$ \frac{\partial{x}}{\partial{t}} = \lambda x \ ln (\frac{1}{x})$$
 
 <h3> Resultados e Discussões </h3>
 
-Na aba Issues desse repositório é possível ver os gráficos de funções aproximadas da solução analítica de cada um dos três modelos populacionais apresentados neste trabalho.
+Na aba Resultados desse repositório é possível ver os gráficos de funções aproximadas da solução analítica de cada um dos três modelos populacionais apresentados neste trabalho, bem como alguns exemplos de regressões simbólicas encontradas pelo algoritmo genético.
 
 Aqui, temos algumas soluções que o grupo julgou como sendo boas aproximações, considerando as limitações do código:
 
